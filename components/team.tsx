@@ -79,7 +79,7 @@ export function Team() {
         <div
           className="w-full h-full bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/placeholder.svg?height=400&width=1200&text=Team+Collaboration')`,
+            backgroundImage: `url('/images/managers.png?height=400&width=1200&text=Team+Collaboration')`,
           }}
         ></div>
       </div>
