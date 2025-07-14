@@ -36,18 +36,30 @@ export function ContactForm() {
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+  e.preventDefault()
+  setIsSubmitting(true)
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000))
+  try {
+    const res = await fetch("https://formsubmit.co/brayan.marcano@mediageek.com.uy", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        company: formData.company,
+        service: formData.service,
+        budget: formData.budget,
+        message: formData.message,
+        newsletter: formData.newsletter ? "Yes" : "No",
+      }),
+    })
 
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-
-    // Reset form after 3 seconds
-    setTimeout(() => {
-      setIsSubmitted(false)
+    if (res.ok) {
+      setIsSubmitted(true)
       setFormData({
         name: "",
         email: "",
@@ -58,8 +70,16 @@ export function ContactForm() {
         message: "",
         newsletter: false,
       })
-    }, 3000)
+    } else {
+      console.error("Error al enviar formulario")
+    }
+  } catch (err) {
+    console.error("Error:", err)
   }
+
+  setIsSubmitting(false)
+}
+
 
   return (
     <section className="py-20 bg-zinc-950">
@@ -121,7 +141,7 @@ export function ContactForm() {
                     value={formData.phone}
                     onChange={handleInputChange}
                     className="bg-zinc-900 border-zinc-700 text-white placeholder-gray-400 focus:border-blue-600"
-                    placeholder="+598 99 123 456"
+                    placeholder="+598 93 370 044"
                   />
                 </div>
 

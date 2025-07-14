@@ -29,12 +29,15 @@ export function ContactMap() {
         >
           {/* Map placeholder */}
           <div className="relative h-96 bg-zinc-900 flex items-center justify-center">
-            <div
-              className="w-full h-full bg-cover bg-center bg-no-repeat"
-              style={{
-                backgroundImage: `url('/placeholder.svg?height=400&width=800&text=Interactive+Map+Punta+del+Este')`,
-              }}
-            ></div>
+            <iframe
+    title="Media Geek Location"
+    src="https://www.google.com/maps?q=Espigón Playa Building, Punta del Este, Uruguay&output=embed"
+    width="100%"
+    height="100%"
+    allowFullScreen
+    loading="lazy"
+    className="w-full h-full border-0 rounded-2xl"
+  ></iframe>
             <div className="absolute inset-0 bg-black/20"></div>
 
             {/* Map overlay info */}

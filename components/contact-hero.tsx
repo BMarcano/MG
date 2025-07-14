@@ -51,12 +51,9 @@ export function ContactHero() {
           >
             <div className="flex items-center justify-center space-x-3 text-gray-300">
               <Phone className="h-5 w-5 text-blue-400" />
-              <span>+598 99 123 456</span>
+              <span>+598 93 370 044</span>
             </div>
-            <div className="flex items-center justify-center space-x-3 text-gray-300">
-              <Mail className="h-5 w-5 text-blue-400" />
-              <span>info@mediageekuy.com</span>
-            </div>
+            
             <div className="flex items-center justify-center space-x-3 text-gray-300">
               <MessageCircle className="h-5 w-5 text-blue-400" />
               <span>Live chat</span>

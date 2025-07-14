@@ -30,7 +30,7 @@ export function ContactCTA() {
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button asChild size="lg" className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-6">
                 <a
-                  href="https://wa.me/59899123456?text=Hello! I'm interested in learning more about Media Geek UY services"
+                  href="https://wa.me/59893370044?text=Hello! I'm interested in learning more about Media Geek UY services"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -47,10 +47,7 @@ export function ContactCTA() {
                 size="lg"
                 className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white text-lg px-8 py-6"
               >
-                <a href="/schedule">
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Schedule Meeting
-                </a>
+                
               </Button>
             </motion.div>
 
@@ -61,7 +58,7 @@ export function ContactCTA() {
                 size="lg"
                 className="border-gray-600 text-gray-300 hover:bg-gray-600 hover:text-white text-lg px-8 py-6"
               >
-                <a href="tel:+59899123456">
+                <a href="tel:+59893370044">
                   <Phone className="mr-2 h-5 w-5" />
                   Call Now
                 </a>

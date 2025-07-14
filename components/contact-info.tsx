@@ -11,16 +11,16 @@ export function ContactInfo() {
       icon: Phone,
       title: "Phone",
       description: "Call us directly",
-      value: "+598 99 123 456",
-      action: "tel:+59899123456",
+      value: "+598 93 370 044",
+      action: "tel:+59893370044",
       color: "from-green-500 to-emerald-500",
     },
     {
       icon: Mail,
       title: "Email",
       description: "Send us an email",
-      value: "info@mediageekuy.com",
-      action: "mailto:info@mediageekuy.com",
+      value: "info@mediageek.com.uy",
+      action: "mailto:brayan.marcano@mediageekuy.com",
       color: "from-blue-500 to-cyan-500",
     },
     {
@@ -28,17 +28,10 @@ export function ContactInfo() {
       title: "WhatsApp",
       description: "Real-time chat",
       value: "Send message",
-      action: "https://wa.me/59899123456",
+      action: "https://wa.me/59893370044",
       color: "from-green-500 to-green-600",
     },
-    {
-      icon: Calendar,
-      title: "Virtual Meeting",
-      description: "Schedule a video call",
-      value: "Schedule appointment",
-      action: "/schedule",
-      color: "from-purple-500 to-pink-500",
-    },
+    
   ]
 
   const officeHours = [

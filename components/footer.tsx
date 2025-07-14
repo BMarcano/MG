@@ -99,8 +99,8 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <address className="not-italic text-gray-400">
               <p className="mb-2">Montevideo, Uruguay</p>
-              <p className="mb-2">info@mediageekuy.com</p>
-              <p>+598 99 123 456</p>
+              <p className="mb-2">brayan.marcano@mediageek.com.uy</p>
+              <p>+598 93 370 044</p>
             </address>
           </div>
         </div>
