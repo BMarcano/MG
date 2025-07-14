@@ -141,7 +141,7 @@ export function ContactForm() {
                     value={formData.phone}
                     onChange={handleInputChange}
                     className="bg-zinc-900 border-zinc-700 text-white placeholder-gray-400 focus:border-blue-600"
-                    placeholder="+598 93 370 044"
+                    placeholder="+598 94 007 702"
                   />
                 </div>
 

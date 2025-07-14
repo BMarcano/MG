@@ -51,7 +51,7 @@ export function ContactHero() {
           >
             <div className="flex items-center justify-center space-x-3 text-gray-300">
               <Phone className="h-5 w-5 text-blue-400" />
-              <span>+598 93 370 044</span>
+              <span>+598 94 007 702</span>
             </div>
             
             <div className="flex items-center justify-center space-x-3 text-gray-300">

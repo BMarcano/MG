@@ -11,8 +11,8 @@ export function ContactInfo() {
       icon: Phone,
       title: "Phone",
       description: "Call us directly",
-      value: "+598 93 370 044",
-      action: "tel:+59893370044",
+      value: "+598 94 007 702",
+      action: "tel:+59894007702",
       color: "from-green-500 to-emerald-500",
     },
     {
@@ -28,7 +28,7 @@ export function ContactInfo() {
       title: "WhatsApp",
       description: "Real-time chat",
       value: "Send message",
-      action: "https://wa.me/59893370044",
+      action: "https://wa.me/59894007702",
       color: "from-green-500 to-green-600",
     },
     
