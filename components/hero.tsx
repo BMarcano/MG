@@ -43,7 +43,7 @@ export function Hero() {
       {/* Video Background with Overlay */}
       <div className="absolute inset-0 z-0">
   {/* Capa de overlay */}
-  <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/70 z-10"></div>
+  <div className="absolute inset-0 bg-gradient-to-r from-black via-black/30 to-black/10 z-10"></div>
 
   {/* Video de fondo */}
   <video

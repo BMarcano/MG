@@ -7,6 +7,7 @@ import { BrandStrategy } from "@/components/brand-strategy"
 import { Portfolio } from "@/components/portfolio"
 import { News } from "@/components/news"
 import { CallToAction } from "@/components/call-to-action"
+import { ClientTestimonials } from "@/components/client-testimonials"
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
       <Expertise />
       <Market />
       <BrandStrategy />
+            <ClientTestimonials />
+
       <CallToAction />
       <Footer />
     </main>
