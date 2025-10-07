@@ -20,15 +20,6 @@ export function ClientTestimonials() {
       website: "https://www.ottoinmobiliaria.com.uy/",
       logo: "/images/Otto.jpg?height=40&width=120&text=TechFlow+Logo",
     },
-    {
-      id: 2,
-      name: "Iridium Shield",
-      statement:
-        "Iridium Shield is excited to be working with Media Geek on the optimization of our digital operations. Through the creation of tailored workflows, process automation, and modern web solutions, Media Geek has helped us streamline key areas of our business. This collaboration is part of our ongoing commitment to efficiency, innovation, and delivering a seamless experience for our clients and partners.",
-      image: "/images/IS.png?height=676&width=492&text=IC",
-      website: "https://innovatecorp.com",
-      logo: "/images/IS.png?height=40&width=120&text=IS",
-    },
     
   ]
 
